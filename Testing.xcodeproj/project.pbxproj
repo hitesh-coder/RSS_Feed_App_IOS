@@ -14,6 +14,11 @@
 		8DA542EE29D029E4001BD786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA542ED29D029E4001BD786 /* Assets.xcassets */; };
 		8DA542F129D029E4001BD786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA542EF29D029E4001BD786 /* LaunchScreen.storyboard */; };
 		8DA542F429D029E4001BD786 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA542F329D029E4001BD786 /* main.m */; };
+		8DA542FC29D02A85001BD786 /* MainPageTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA542FB29D02A85001BD786 /* MainPageTopView.m */; };
+		8DA542FF29D02BDC001BD786 /* MainPageTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA542FE29D02BDC001BD786 /* MainPageTable.m */; };
+		8DA5430229D036CC001BD786 /* SecondPageTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5430129D036CC001BD786 /* SecondPageTable.m */; };
+		8DA5430529D037EB001BD786 /* SecondPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5430429D037EB001BD786 /* SecondPageViewController.m */; };
+		8DA5430829D1B8E2001BD786 /* ThirdPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5430729D1B8E2001BD786 /* ThirdPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,16 @@
 		8DA542F029D029E4001BD786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DA542F229D029E4001BD786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DA542F329D029E4001BD786 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DA542FA29D02A85001BD786 /* MainPageTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainPageTopView.h; sourceTree = "<group>"; };
+		8DA542FB29D02A85001BD786 /* MainPageTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainPageTopView.m; sourceTree = "<group>"; };
+		8DA542FD29D02BDC001BD786 /* MainPageTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainPageTable.h; sourceTree = "<group>"; };
+		8DA542FE29D02BDC001BD786 /* MainPageTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainPageTable.m; sourceTree = "<group>"; };
+		8DA5430029D036CC001BD786 /* SecondPageTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondPageTable.h; sourceTree = "<group>"; };
+		8DA5430129D036CC001BD786 /* SecondPageTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondPageTable.m; sourceTree = "<group>"; };
+		8DA5430329D037EB001BD786 /* SecondPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondPageViewController.h; sourceTree = "<group>"; };
+		8DA5430429D037EB001BD786 /* SecondPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondPageViewController.m; sourceTree = "<group>"; };
+		8DA5430629D1B8E2001BD786 /* ThirdPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdPageViewController.h; sourceTree = "<group>"; };
+		8DA5430729D1B8E2001BD786 /* ThirdPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +82,16 @@
 				8DA542E529D029E3001BD786 /* SceneDelegate.m */,
 				8DA542E729D029E3001BD786 /* ViewController.h */,
 				8DA542E829D029E3001BD786 /* ViewController.m */,
+				8DA542FD29D02BDC001BD786 /* MainPageTable.h */,
+				8DA542FE29D02BDC001BD786 /* MainPageTable.m */,
+				8DA5430029D036CC001BD786 /* SecondPageTable.h */,
+				8DA5430129D036CC001BD786 /* SecondPageTable.m */,
+				8DA5430329D037EB001BD786 /* SecondPageViewController.h */,
+				8DA5430429D037EB001BD786 /* SecondPageViewController.m */,
+				8DA542FA29D02A85001BD786 /* MainPageTopView.h */,
+				8DA542FB29D02A85001BD786 /* MainPageTopView.m */,
+				8DA5430629D1B8E2001BD786 /* ThirdPageViewController.h */,
+				8DA5430729D1B8E2001BD786 /* ThirdPageViewController.m */,
 				8DA542EA29D029E3001BD786 /* Main.storyboard */,
 				8DA542ED29D029E4001BD786 /* Assets.xcassets */,
 				8DA542EF29D029E4001BD786 /* LaunchScreen.storyboard */,
@@ -146,10 +171,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DA5430829D1B8E2001BD786 /* ThirdPageViewController.m in Sources */,
 				8DA542E929D029E3001BD786 /* ViewController.m in Sources */,
 				8DA542E329D029E3001BD786 /* AppDelegate.m in Sources */,
 				8DA542F429D029E4001BD786 /* main.m in Sources */,
+				8DA5430229D036CC001BD786 /* SecondPageTable.m in Sources */,
 				8DA542E629D029E3001BD786 /* SceneDelegate.m in Sources */,
+				8DA5430529D037EB001BD786 /* SecondPageViewController.m in Sources */,
+				8DA542FF29D02BDC001BD786 /* MainPageTable.m in Sources */,
+				8DA542FC29D02A85001BD786 /* MainPageTopView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
